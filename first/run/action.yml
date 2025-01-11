@@ -1,0 +1,11 @@
+name: 'run'
+description: 'run'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run
+      shell: bash
+      id: run
+      run: |
+        echo "Hello run"
