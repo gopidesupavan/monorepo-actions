@@ -10,3 +10,5 @@ jobs:
         uses: gopidesupavan/monorepo-actions/first/init@init/v1.0.0
       - name: "run"
         uses: gopidesupavan/monorepo-actions/first/run@run/v2.0.0
+      - name: "checkout"
+        uses: action/checkout@v1.0.0
