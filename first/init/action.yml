@@ -8,4 +8,4 @@ runs:
       shell: bash
       id: init
       run: |
-        echo "Hello"
+        echo "Hello v2"
