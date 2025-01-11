@@ -9,4 +9,4 @@ jobs:
       - name: "init"
         uses: gopidesupavan/monorepo-actions/first/init@init/v1.0.0
       - name: "run"
-        uses: gopidesupavan/monorepo-actions/first/init@init/v1.0.0
+        uses: gopidesupavan/monorepo-actions/first/run@run/v1.0.0
