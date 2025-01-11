@@ -1,0 +1,11 @@
+name: 'init'
+description: 'init'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run init
+      shell: bash
+      id: init
+      run: |
+        echo "Hello"
