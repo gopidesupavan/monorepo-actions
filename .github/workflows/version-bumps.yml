@@ -16,6 +16,3 @@ jobs:
     steps:
       - name: "exec"
         uses: gopidesupavan/monorepo-actions/second/exec@exec/1.0.0
-      - name: Run microbenchmark2
-        uses: elastic/oblt-actions/buildkite/run@v1
-  
