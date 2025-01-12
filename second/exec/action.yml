@@ -1,0 +1,11 @@
+name: 'exec'
+description: 'exec'
+
+runs:
+  using: "composite"
+  steps:
+    - name: exc
+      shell: bash
+      id: run
+      run: |
+        echo "Hello exec"
