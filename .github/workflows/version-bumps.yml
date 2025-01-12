@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "init"
-        uses: gopidesupavan/monorepo-actions/first/init@init/v1.0.0
+        uses: gopidesupavan/monorepo-actions/first/init@init/v2.0.0
       - name: "run"
         uses: gopidesupavan/monorepo-actions/first/run@run/v2.0.0
