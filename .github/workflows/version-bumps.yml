@@ -18,3 +18,4 @@ jobs:
         uses: gopidesupavan/monorepo-actions/second/exec@exec/1.0.0
       - name: check
         uses: elastic/oblt-actions/slack/send@v1
+      - uses: actions/checkout@v1
