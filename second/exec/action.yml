@@ -8,4 +8,4 @@ runs:
       shell: bash
       id: run
       run: |
-        echo "Hello exec"
+        echo "Hello exec 2"
