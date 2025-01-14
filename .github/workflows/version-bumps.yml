@@ -16,4 +16,4 @@ jobs:
     steps:
       - name: "exec"
         uses: gopidesupavan/monorepo-actions/second/exec@exec/1.0.0
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
