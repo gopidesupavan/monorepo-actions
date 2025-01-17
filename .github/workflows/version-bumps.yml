@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "exec"
-        uses: gopidesupavan/monorepo-actions/second/exec@exec/1.0.0
+        uses: gopidesupavan/monorepo-actions/second/exec@exec/2.0.0
       - uses: actions/checkout@v1
